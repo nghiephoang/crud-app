@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+li {
+  color: white;
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #17a067;
+}
+.active {
+  background-color: #17a067;
+}
+.tableContent {
+  margin: 70px auto;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 800px;
+  padding: 40px 40px;
+}
+table,
+th,
+td {
+  border: solid 1px;
+}
+table {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+}
